@@ -38,7 +38,7 @@ else
 fi
 
 echo -n "checking HE Tunnel status... "
-read status heip <<< $(curl -s $HE_URL)
+read status heip <<<$(curl -s $HE_URL)
 if [ "$status" = "nochg" ]; then
     if [ "$visible" != "$heip" ]; then
         echo "change detected!"

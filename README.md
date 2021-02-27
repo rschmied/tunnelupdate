@@ -5,7 +5,7 @@
 This reads credentials from the file and updates both the DynDNS record and the
 Hurricane Electric IPv6 tunnel endpoint, if a change is detected.
 
-This "works-for-me". It was put on GitHub to have it in a save place.  It's not
+This "works-for-me". It was put on GitHub to have it in a safe place.  It's not
 necessarily meant to be useful for others.  YMMV.
 
 ## What it expects
