@@ -3,9 +3,9 @@
 # update the DynDNS IP address, if needed
 # update the tunnelbroker.net IPv6 tunnel, if needed
 
-source $(pwd)/credentials
+source $(pwd)/${1:-credentials}
 
-# https://www.tunnelbroker.net/tunnel_detail.php?tid=248270
+# https://www.tunnelbroker.net/tunnel_detail.php?tid=your-id-here
 # https://forums.he.net/index.php?topic=1994.0
 HE_URL="https://ipv4.tunnelbroker.net/nic/update?username=${HE_USER}&password=${HE_PASS}&hostname=${HE_HOST}"
 

@@ -6,12 +6,12 @@ This reads credentials from the file and updates both the DynDNS record and the
 Hurricane Electric IPv6 tunnel endpoint, if a change is detected.
 
 This "works-for-me". It was put on GitHub to have it in a safe place.  It's not
-necessarily meant to be useful for others.  YMMV.
+necessarily meant to be useful to others.  YMMV.
 
 ## What it expects
 
 This works specifically with a combination of DynDNS and HE TunnelBroker.  Could
-probably be adapted to other provides...
+probably be adapted to other providers...
 
 In addition, the variables in `credentials` need to be changed so that they
 match your accounts.
